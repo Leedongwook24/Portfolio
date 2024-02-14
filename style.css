@@ -1,0 +1,89 @@
+h1{
+    margin: 10px;
+    font-weight:bolder;
+  }
+h2{margin: 10px;
+    padding: 0px 20px;
+    font-weight:bold;
+  }
+  a{
+    text-decoration-line:none;
+  }
+  ul{padding: 0px; list-style-type: none;}
+  ol{padding-left:30px;}
+  .main_banner{
+    text-align: center;
+    width:100%;
+    height:80px;
+    font-size: 65px;
+    margin: 0px;
+    padding:15px;
+    background-color:skyblue;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .main_menu{
+    width:100%;
+    background-color:aqua;
+    font-family: serif;
+  }
+  .main_button{
+width: 25%;
+font-size: 150%;
+margin: 10px;
+padding: 10px;
+border: 1px black solid;
+text-align: center;
+font-weight: bold;
+}
+.white_page{
+    background-color: rgb(255, 255, 255, 0.5);
+    margin: 15px 30px;
+    padding: 10px;
+    border-radius:10px;
+}
+.block_page{
+    background-color: rgba(46, 177, 197, 0.5);
+    margin: 20px 10px;
+    padding: 30px;
+    border-radius:10px;
+    font-size: 20px;
+}
+*{
+    margin: 0px;
+}
+table{
+    border: 1px solid black;
+    width:100%;
+}
+th{
+    font-weight: bold;
+    border: 1px solid black;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+.picture{
+width: 300px;
+height:150px;
+object-fit: cover;
+}
+.desc{
+    padding:5px;
+    text-align:left;
+}
+@media (max-width: 600px) {
+    .main_banner{font-size: 40px;
+    margin:0px;
+    .white_page{margin:0px; padding:0px;}
+    .block_page{margin:1px;padding: 0px; }
+}
+}
+
+@media (max-width: 790px) {
+    .td{font-size:1px;}
+    .th{font-size:5px;}
+    .desc{font-size:12px;}
+
+}
